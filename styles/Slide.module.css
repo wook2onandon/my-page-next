@@ -1,0 +1,20 @@
+.container {
+  width: 50%;
+}
+
+.slideWrap {
+  width: 100%;
+}
+
+.slideImg {
+  width: 100%;
+  object-fit: contain;
+  height: 280px;
+  /* max-height: 280px; */
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}

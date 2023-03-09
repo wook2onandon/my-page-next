@@ -35,7 +35,7 @@ export default function Archiving({ elementRef }: any) {
               <img className={styles.nameImg} src="/images/notion.png" alt="" />
             </div>
             <div className={styles.address}>
-              https://grave-jute-6f6.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78
+              https://wook2onandon.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78
             </div>
             <div className={styles.textTitle}>
               <b>WOOK's Portfolio 노션</b>입니다.

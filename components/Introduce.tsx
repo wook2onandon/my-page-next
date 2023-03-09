@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../styles/Introduce.module.css';
 
 export default function Introduce() {

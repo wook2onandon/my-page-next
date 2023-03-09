@@ -87,7 +87,7 @@ export const projectData = [
     title: '포트폴리오 웹사이트',
     subTitle: '2023.01 (1人 개인 프로젝트)',
     detail:
-      '포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다. 순수 React로 개발을 완료하였습니다. 슬라이더는 React-Slick library를 사용하여 arrow버튼과 paging버튼을 커스텀하여 사용하였고 메뉴를 눌렀을때 스크롤을 이동시키기 위해 useMoveScroll이라는 custom hook을 만들어서 구현했습니다.',
+      '포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다. 이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 편리함과 실용성을 느낄 수 있었습니다. 슬라이더는 React-Slick library를 사용하여 arrow버튼과 paging버튼을 커스텀하여 사용하였고 메뉴를 눌렀을때 스크롤을 이동시키기 위해 useMoveScroll이라는 custom hook을 만들어서 구현했습니다.',
     features:
       '간단한 자기소개, 인적 사항, 기술 스택, GitHub링크, 프로젝트 경험, 업무 경력기술',
     github: 'https://www.github.com/wook2onandon/my-page',
@@ -106,7 +106,7 @@ export const projectData = [
     readme: {
       title: '포트폴리오 웹사이트',
       summary:
-        '포트폴리오 용도로 제작한 웹사이트입니다.  순수 React로 개발을 완료하였습니다. 슬라이더는 React-Slick library를 사용하여 arrow버튼과 paging버튼을 커스텀하여 사용하였고 메뉴를 눌렀을때 스크롤을 이동시키기 위해 useMoveScroll이라는 custom hook을 만들어서 구현했습니다.',
+        '포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다. 이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 편리함과 실용성을 느낄 수 있었습니다.',
       detail: [
         '간단한 자기소개',
         '인적 사항',
@@ -116,11 +116,11 @@ export const projectData = [
         '업무 경력',
       ],
       background:
-        '순수 React로 구현한 웹사이트입니다. React는 편리하게 사용할 수 있는 library기능이 많기 때문에 React-Slick library를 사용하였고, custom hook을 사용해보고 싶어서 페이지의 스크롤 관련 이벤트는 custom hook을 만들어 사용해보았습니다.',
+        '순수 React로 개발한 웹사이트는 서버 사이드 렌더링을 지원하기 어렵기 때문에 검색 엔진 최적화(SEO)에서 치명적인 약점을 보입니다. 그래서 클라이언트 사이드 렌더링과 함께 서버 사이드 렌더링도 지원하는 Next.js가 큰 인기를 얻고 있었습니다. 이 프로젝트를 진행하게 된 이유도 Next.js를 학습하기 위함입니다. Next.js 학습의 대상으로 기존의 포트폴리오 웹사이트를 그대로 가져온 이유는 간단합니다. 새로운 기술 스택으로 동일한 웹사이트를 다시 개발하면 기존 기술 스택과의 차이점을 명확하게 파악할 수 있을 뿐 아니라, 다른 사람들에게 많이 노출되어야 하는 포트폴리오 웹사이트의 특성상 서버 사이드 렌더링이 필요하기 때문입니다. 기존의 포트폴리오 웹사이트는 순수 React로 개발되어 있기 때문에 검색엔진최적화(SEO)의 측면에서 매우 불리했습니다.',
       meaning:
-        'slider관련 library는 기존에도 많이 사용해 보았기 때문에 사용하는데에 번거롭거나 어려운 점이 없었습니다. 하지만 스크롤 관련 custom hook은 처음 구현해 보았는데 익숙하지 않은 방식이라 조금 어려움이 있었습니다. object에 미리 정의해둔 메뉴들을 useRef를 사용하여 element의 위치를 찾아 스크롤을 이동시켜주는 형태로 사용하였습니다.',
+        'Next.js로 다시 개발하는 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 편리함과 실용성을 느낄 수 있었습니다. slider관련 library는 기존에도 많이 사용해 보았기 때문에 사용하는데에 번거롭거나 어려운 점이 없었습니다. 하지만 스크롤 관련 custom hook은 처음 구현해 보았는데 익숙하지 않은 방식이라 조금 어려움이 있었습니다. object에 미리 정의해둔 메뉴들을 useRef를 사용하여 element의 위치를 찾아 스크롤을 이동시켜주는 형태로 사용하였습니다.',
       techStack: {
-        frontend: 'React, css module, React-Slick',
+        frontend: 'Next.js, Typescript, React, css module, React-Slick',
         backend: '',
         database: '',
         deployment: 'Netlify',

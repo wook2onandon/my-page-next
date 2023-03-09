@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState } from 'react';
 import { projectData } from '../assets/projectData';
 import FullScreenDialog from './FullScreenDialog';
@@ -6,11 +5,11 @@ import Slide from './Slide';
 import Title from './Title';
 import styles from '../styles/Projects.module.css';
 
-export default function Projects({ elementRef }) {
+export default function Projects({ elementRef }: any) {
   const [modalOn, setModalOn] = useState(false);
   const [projectNum, setProjectNum] = useState(0);
 
-  const handleModal = (num) => {
+  const handleModal = (num: number) => {
     if (num) {
       setProjectNum(num);
     }

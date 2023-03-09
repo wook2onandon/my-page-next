@@ -1,8 +1,7 @@
-import React from 'react';
 import Title from './Title';
 import styles from '../styles/Career.module.css';
 
-export default function Career({ elementRef }) {
+export default function Career({ elementRef }: any) {
   return (
     <article ref={elementRef} className={styles.container}>
       <div className={styles.wrap}>

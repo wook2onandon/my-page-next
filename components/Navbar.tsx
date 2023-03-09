@@ -1,11 +1,28 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../styles/Navbar.module.css';
 import { FiArrowUp } from 'react-icons/fi';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { debounce } from 'lodash';
 import { useMediaQuery } from 'react-responsive';
 
-export default function Navbar({ goodsTabs }) {
+type tabType = {
+  goodsTabs: {
+    0: tabDetailType;
+    1: tabDetailType;
+    2: tabDetailType;
+    3: tabDetailType;
+    4: tabDetailType;
+    length: number;
+  };
+};
+
+type tabDetailType = {
+  element: any;
+  name: string;
+  onMoveToElement: () => void;
+};
+
+export default function Navbar({ goodsTabs }: tabType) {
   const [scrollTop, setScrollTop] = useState(true);
   const [openHamburger, setOpenHamburger] = useState(false);
   const [isDesktop, setIsDesktop] = useState(true);

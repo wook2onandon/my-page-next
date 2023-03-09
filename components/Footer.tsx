@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/Footer.module.css';
 import { BsGithub, BsInstagram, BsFacebook } from 'react-icons/bs';
 import { SiNotion } from 'react-icons/si';

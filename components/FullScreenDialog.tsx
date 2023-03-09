@@ -1,10 +1,34 @@
-import React from 'react';
 import Portal from '../utils/Portal';
 import styles from '../styles/FullScreenDialog.module.css';
 import { AiOutlineClose } from 'react-icons/ai';
 import { useEffect } from 'react';
 
-export default function FullScreenDialog({ handleModal, project, num }) {
+type fullScreenType = {
+  handleModal: (e: number) => void;
+  project: readMeType;
+  num: number;
+};
+
+type readMeType = {
+  title: string;
+  summary: string;
+  detail: string[];
+  background: string;
+  meaning: string;
+  techStack: {
+    frontend: string;
+    backend: string;
+    database: string;
+    deployment: string;
+  };
+  url: string;
+};
+
+export default function FullScreenDialog({
+  handleModal,
+  project,
+  num,
+}: fullScreenType) {
   const { title, summary, detail, background, meaning, techStack, url } =
     project;
   useEffect(() => {

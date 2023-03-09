@@ -3,7 +3,7 @@ import { skillsInfo } from '../assets/projectData';
 import Title from './Title';
 import styles from '../styles/Skills.module.css';
 
-export default function Skills({ elementRef }) {
+export default function Skills({ elementRef }: any) {
   return (
     <article className={styles.section}>
       <div className={styles.container} ref={elementRef}>

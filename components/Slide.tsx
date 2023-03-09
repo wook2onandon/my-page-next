@@ -4,8 +4,12 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from '../styles/Slide.module.css';
 
-export default function Slide({ slider }) {
-  function SampleNextArrow(props) {
+type sliderType = {
+  slider: string[];
+};
+
+export default function Slide({ slider }: sliderType) {
+  function SampleNextArrow(props: any) {
     let { className, style, onClick } = props;
     return (
       <div
@@ -16,7 +20,7 @@ export default function Slide({ slider }) {
     );
   }
 
-  function SamplePrevArrow(props) {
+  function SamplePrevArrow(props: any) {
     const { className, style, onClick } = props;
     return (
       <div
@@ -34,10 +38,10 @@ export default function Slide({ slider }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
-    lazyLoad: true,
+    // lazyLoad: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    customPaging: function (i) {
+    customPaging: function (i: any) {
       return <div className="dot"></div>;
     },
     dotsClass: 'slick-dots slick-thumb',

@@ -1,8 +1,7 @@
-import React from 'react';
 import Title from './Title';
 import styles from '../styles/Archiving.module.css';
 
-export default function Archiving({ elementRef }) {
+export default function Archiving({ elementRef }: any) {
   return (
     <article ref={elementRef} className={styles.container}>
       <div className={styles.wrap}>
@@ -30,7 +29,7 @@ export default function Archiving({ elementRef }) {
           </a>
           <a
             className={styles.itemWrap}
-            href="https://grave-jute-6f6.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78"
+            href="https://wook2onandon.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78"
           >
             <div className={styles.nameWrap}>
               <img className={styles.nameImg} src="/images/notion.png" alt="" />

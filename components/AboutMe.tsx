@@ -9,7 +9,7 @@ import { IoLocationSharp } from 'react-icons/io5';
 import { IoMdMail } from 'react-icons/io';
 import Title from './Title';
 
-export default function AboutMe({ elementRef }) {
+export default function AboutMe({ elementRef }: any) {
   return (
     <article className={styles.container} ref={elementRef}>
       <Title font="ABOUT ME" lineColor="#cccccc" color="#000" />

@@ -19,6 +19,7 @@ export default function Skills({ elementRef }: any) {
                   alt={skill.title}
                   fill
                   className={styles.listImg}
+                  loading="lazy"
                 />
               </div>
             );

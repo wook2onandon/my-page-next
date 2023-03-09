@@ -34,6 +34,7 @@ export default function Introduce() {
         alt="mainBg"
         fill
         className={styles.mainBg}
+        loading="lazy"
       />
       <div className={styles.textBox}>
         <h2 className={styles.title}>- 김종욱 -</h2>

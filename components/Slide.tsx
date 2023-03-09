@@ -59,6 +59,7 @@ export default function Slide({ slider }: sliderType) {
                 alt="project"
                 fill
                 className={styles.slideImg}
+                loading="lazy"
               />
             </div>
           );

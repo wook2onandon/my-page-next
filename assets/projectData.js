@@ -90,9 +90,9 @@ export const projectData = [
       '포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다. 이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 편리함과 실용성을 느낄 수 있었습니다. 슬라이더는 React-Slick library를 사용하여 arrow버튼과 paging버튼을 커스텀하여 사용하였고 메뉴를 눌렀을때 스크롤을 이동시키기 위해 useMoveScroll이라는 custom hook을 만들어서 구현했습니다.',
     features:
       '간단한 자기소개, 인적 사항, 기술 스택, GitHub링크, 프로젝트 경험, 업무 경력기술',
-    github: 'https://www.github.com/wook2onandon/my-page',
+    github: 'https://github.com/wook2onandon/my-page-next',
     url: 'https://wook-portfolio.netlify.app',
-    frontend: 'react, css module, react-slick',
+    frontend: 'next.js, typescript, react, css module, react-slick',
     backend: '',
     database: '',
     deployment: 'Netlify',

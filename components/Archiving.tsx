@@ -49,7 +49,7 @@ export default function Archiving({ elementRef }: any) {
               https://wook2onandon.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78
             </div>
             <div className={styles.textTitle}>
-              <b>WOOK's Portfolio 노션</b>입니다.
+              <b>WOOK&rsquo;s Portfolio 노션</b>입니다.
             </div>
             <ul className={styles.textWrap}>
               <li className={styles.text}>

@@ -76,7 +76,7 @@ export default function Navbar({ goodsTabs }: tabType) {
       >
         <div className={styles.wrap}>
           <span className={styles.logo} onClick={handleScrollTop}>
-            WOOK's Portfolio
+            WOOK&rsquo;s Portfolio
           </span>
           {isDesktop ? (
             <ul className={styles.menuList}>

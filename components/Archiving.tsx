@@ -1,5 +1,6 @@
 import Title from './Title';
 import styles from '../styles/Archiving.module.css';
+import Image from 'next/image';
 
 export default function Archiving({ elementRef }: any) {
   return (
@@ -12,7 +13,12 @@ export default function Archiving({ elementRef }: any) {
             href="https://www.github.com/wook2onandon"
           >
             <div className={styles.nameWrap}>
-              <img className={styles.nameImg} src="/images/github.png" alt="" />
+              <Image
+                src="/images/github.png"
+                alt="logo"
+                width={160}
+                height={90}
+              />
             </div>
             <div className={styles.address}>github.com/wook2onandon</div>
             <div className={styles.textTitle}>
@@ -32,7 +38,12 @@ export default function Archiving({ elementRef }: any) {
             href="https://wook2onandon.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78"
           >
             <div className={styles.nameWrap}>
-              <img className={styles.nameImg} src="/images/notion.png" alt="" />
+              <Image
+                src="/images/notion.png"
+                alt="logo"
+                width={160}
+                height={90}
+              />
             </div>
             <div className={styles.address}>
               https://wook2onandon.notion.site/WOOK-s-Portfolio-a465e17624d141378fdc4b8effba7d78

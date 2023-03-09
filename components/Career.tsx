@@ -1,5 +1,6 @@
 import Title from './Title';
 import styles from '../styles/Career.module.css';
+import Image from 'next/image';
 
 export default function Career({ elementRef }: any) {
   return (
@@ -9,10 +10,11 @@ export default function Career({ elementRef }: any) {
         <div className={styles.itemWrap}>
           <div className={styles.logoContainer}>
             <div className={styles.logoWrap}>
-              <img
-                className={styles.logo}
+              <Image
                 src="/images/shoppingonair.png"
-                alt=""
+                alt="logo"
+                width={214}
+                height={38}
               />
             </div>
           </div>

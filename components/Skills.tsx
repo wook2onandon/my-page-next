@@ -2,6 +2,7 @@ import React from 'react';
 import { skillsInfo } from '../assets/projectData';
 import Title from './Title';
 import styles from '../styles/Skills.module.css';
+import Image from 'next/image';
 
 export default function Skills({ elementRef }: any) {
   return (
@@ -13,10 +14,11 @@ export default function Skills({ elementRef }: any) {
             return (
               <div className={styles.listWrap} key={index}>
                 <div className={styles.listTitle}>{skill.title}</div>
-                <img
-                  className={styles.listImg}
+                <Image
                   src={skill.src}
                   alt={skill.title}
+                  fill
+                  className={styles.listImg}
                 />
               </div>
             );

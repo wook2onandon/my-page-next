@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from '../styles/Slide.module.css';
+import Image from 'next/image';
 
 type sliderType = {
   slider: string[];
@@ -52,8 +53,13 @@ export default function Slide({ slider }: sliderType) {
       <Slider {...settings} className={styles.slideWrap}>
         {slider.map((slide, index) => {
           return (
-            <div key={index}>
-              <img src={slide} alt="project" className={styles.slideImg} />
+            <div key={index} className={styles.slideBox}>
+              <Image
+                src={slide}
+                alt="project"
+                fill
+                className={styles.slideImg}
+              />
             </div>
           );
         })}

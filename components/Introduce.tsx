@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from '../styles/Introduce.module.css';
+import Image from 'next/image';
 
 export default function Introduce() {
   const [blogTitle, setBlogTitle] = useState('');
@@ -28,7 +29,12 @@ export default function Introduce() {
 
   return (
     <article className={styles.container}>
-      <img className={styles.mainBg} src="/images/work.jpg" alt="" />
+      <Image
+        src="/images/work.jpg"
+        alt="mainBg"
+        fill
+        className={styles.mainBg}
+      />
       <div className={styles.textBox}>
         <h2 className={styles.title}>- 김종욱 -</h2>
         <h2 className={styles.subTitle}>{blogTitle}</h2>

@@ -95,7 +95,7 @@ export const projectData = [
     frontend: 'next.js, typescript, react, css module, react-slick',
     backend: '',
     database: '',
-    deployment: 'Netlify',
+    deployment: 'vercel',
     images: [
       '/images/portfolio-home.png',
       '/images/portfolio-skills.png',

@@ -106,7 +106,7 @@ export const projectData = [
     readme: {
       title: '포트폴리오 웹사이트',
       summary:
-        '포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다. 이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 편리함과 실용성을 느낄 수 있었습니다.',
+        '포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다. 이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 편리함과 실용성을 느낄 수 있었습니다. 또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.',
       detail: [
         '간단한 자기소개',
         '인적 사항',
@@ -123,7 +123,7 @@ export const projectData = [
         frontend: 'Next.js, Typescript, React, css module, React-Slick',
         backend: '',
         database: '',
-        deployment: 'Netlify',
+        deployment: 'vercel',
       },
       url: 'https://wook-portfolio.netlify.app',
     },

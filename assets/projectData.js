@@ -91,7 +91,7 @@ export const projectData = [
     features:
       '간단한 자기소개, 인적 사항, 기술 스택, GitHub링크, 프로젝트 경험, 업무 경력기술',
     github: 'https://github.com/wook2onandon/my-page-next',
-    url: 'https://wook-portfolio.netlify.app',
+    url: 'https://wook-portfolio.vercel.app',
     frontend: 'next.js, typescript, react, css module, react-slick',
     backend: '',
     database: '',

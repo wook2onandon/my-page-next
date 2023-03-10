@@ -15,7 +15,7 @@
 .textBox {
   width: 100%;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, 0);
   text-align: center;
